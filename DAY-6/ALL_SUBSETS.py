@@ -1,6 +1,6 @@
-def find_subsets(l):
+def find_subsets(l,target):
     def subsets(l):
-        if l not in sublist:
+        if l not in sublist and sum(l)==target:
             sublist.append(l)
         if not len(l):
             return
@@ -11,4 +11,5 @@ def find_subsets(l):
     subsets(l)
     return sublist
 l=list(map(int,input().split()))
-print(find_subsets(l))
+target=int(input())
+print(find_subsets(l,target))

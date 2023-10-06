@@ -6,7 +6,7 @@ def Nqueen(n):
     board=[['.']*n for _ in range(n)]
     def backtracking(r):
         if r==n:
-            l=['.'.join(i) for i in board]
+            l=[''.join(i) for i in board]
             ans.append(l)
             return
         for c in range(n):
