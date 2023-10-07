@@ -8,5 +8,5 @@ for i in range(1,10):
 sortl=[0 for i in range(n)]
 for i in l[::-1]:
     counter[i]-=1
-    l[counter[i]]=i
-print(l)
+    sortl[counter[i]]=i
+print(sortl)
