@@ -1,0 +1,50 @@
+                                                                                             10/10/2023
+					HASHING
+				--------------------------
+Hashing is technique to reduce searching time in an algorithm at the expense of space.
+
+					HASH TABLE
+				--------------------------
+It is an array in which we store elements according to the some key and the key is calculated bu the hash function.
+
+					HASH FUNCTION
+				--------------------------
+It is used to find the key from array elements.
+
+For finding the key we have 4 methods:
+--------------------------------------
+
+1. Division by 10 { h(k)=i%10 }
+
+2. Division by N (N is not a length of list, it is anything)
+   { h(k)=i%N }
+
+3.Midsquare 
+   ex: 236 it can be stored at 9th position means mid=3 then 3^2 = 9
+
+4.LoadFactor:{ (No. of elements in hash table)/(size of hashtable) }
+
+					COLLISION
+				--------------------------
+collision happens when hash function gives same keys more than one elements
+
+To avoid the collison:
+
+1.Direct Chainning
+2.Closed Addressing/Open Hashing
+
+EX: List=[38,23,21,45,46]
+    38%5 = 3 
+    23%5 = 3 
+    Its leads collision.
+
+then 38%10 = 8 --> h(8)=38
+     23%10 = 3 --> h(3)=23
+     21%10 = 1 --> h(1)=21
+     45%10 = 5 --> h(5)=45
+     46%10 = 6 --> h(6)=46
+
+
+DIRECT CHAINING: If 2 or more array elements hash to the same location we connect them with the help of Linked list. This is called as Direct chaining
+
+Open Hashing:    

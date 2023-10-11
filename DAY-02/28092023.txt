@@ -1,0 +1,11 @@
+SPACE COMPLEXITY = AUXILIARY SPACE + INPUT VALUES OF OUR VARIABLES
+
+TIME COMPLEXITY
+---------------
+
+ASYMTOTIC NOTATIONS: O - Notation
+		     θ - Notation
+		     Ω - Notation
+
+
+

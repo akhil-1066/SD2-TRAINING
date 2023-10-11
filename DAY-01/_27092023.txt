@@ -1,0 +1,23 @@
+DATA TYPES	c    java   python
+-----------------------------------
+short  		2     2      2
+Int    		4     4      4
+float  		4     4      4
+double 		8     8      -
+char   		1     2      2
+long   		8     8      -
+bool   		-     1(bit) True or False
+----------------------------------
+
+INT RANGE:
+(UNSIGNED): 0 - 4294967295
+(SIGNED)  : -2147483648 - 2147483647 
+
+SPACE COMPLEXITY:
+~~~~~~~~~~~~~~~~~
+
+want to store age(3), pincode(6), mobileno(10), aadharno(12) debitcard(16), and slno;
+
+
+Find out the real time examples of all oops concept
+,,                     neon numbers
