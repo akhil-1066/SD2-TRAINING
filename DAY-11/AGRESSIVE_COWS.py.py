@@ -25,9 +25,7 @@ def aggressive_cows(stalls, cows):
         return low - 1
 
     return binary_search()
-
-# Example usage:
-stalls = [1, 2, 4, 8, 9]
-num_cows = 3
+stalls = [0,3,4,7,9,10]
+num_cows = 4
 result = aggressive_cows(stalls, num_cows)
 print(f"The maximum minimum distance is: {result}")
